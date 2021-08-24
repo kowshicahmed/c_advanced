@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1591904354 source:c:\users\akash\documents\codeblocksworkspace\voidpointer\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

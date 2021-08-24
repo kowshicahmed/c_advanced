@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1591029313 source:c:\users\akash\documents\codeblocksworkspace\workinglarge\main.c
+	<stdio.h>
+	<stdlib.h>
+	"other.h"
+
+1591029268 c:\users\akash\documents\codeblocksworkspace\workinglarge\other.h
+
+1591038791 source:c:\users\akash\documents\codeblocksworkspace\workinglarge\other.c
+	"other.h"
+

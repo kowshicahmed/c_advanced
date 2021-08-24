@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1591907981 source:c:\users\akash\documents\codeblocksworkspace\funcpointer\main.c
+	<stdio.h>
+	<stdlib.h>
+

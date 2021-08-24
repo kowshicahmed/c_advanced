@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1592403580 source:c:\users\akash\documents\codeblocksworkspace\linkedlistseslab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ses_scheduler.h"
+
+1592403854 source:c:\users\akash\documents\codeblocksworkspace\linkedlistseslab\ses_scheduler.c
+	<stdio.h>
+	<stdlib.h>
+	"ses_scheduler.h"
+
+1592308901 c:\users\akash\documents\codeblocksworkspace\linkedlistseslab\ses_scheduler.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	<malloc.h>
+

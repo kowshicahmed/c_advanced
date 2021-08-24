@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565090513 source:c:\users\akash\documents\codeblocksworkspace\taskscheduler\main.c
+	<stdio.h>
+	<stdlib.h>
+

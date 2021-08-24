@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592075554 source:c:\users\akash\documents\codeblocksworkspace\linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

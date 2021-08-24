@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1592084047 source:c:\users\akash\documents\codeblocksworkspace\linkedlistchallenge\main.c
+	<stdio.h>
+	<stdint.h>
+	<stddef.h>
+	<malloc.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588442180 source:c:\users\akash\documents\codeblocksworkspace\ses_task1_ex\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
