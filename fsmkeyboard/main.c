@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <ctype.h>
 //#include "fsm.h"
-typedef struct Fsm {
-    State state; /* current state */
-}Fsm;
+// typedef struct Fsm {
+//     State state; /* current state */
+// }Fsm;
 typedef struct Event Event;
-//typedef struct Fsm Fsm;
+typedef struct Fsm Fsm;
 
 /* a state is represented by a function pointer, called for each transition emanating in this state */
 typedef void (*State)(Fsm *, const Event *);
@@ -18,9 +18,9 @@ struct Event {
 
 /* base type for state machine */
 
-//typedef struct Fsm {
-    //State state; /* current state */
-//};
+typedef struct Fsm {
+    State state; /* current state */
+}Fsm;
 
 
 /* dispatches events to state machine, called in application*/

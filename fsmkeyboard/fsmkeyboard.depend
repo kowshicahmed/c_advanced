@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1594923216 source:c:\users\akash\documents\codeblocksworkspace\fsmkeyboard\main.c
-	<stdlib.h>
-	<stdio.h>
-	<ctype.h>
-
