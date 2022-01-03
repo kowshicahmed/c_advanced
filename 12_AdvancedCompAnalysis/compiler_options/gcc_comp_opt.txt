@@ -1,0 +1,30 @@
+// Compiling In a terminal
+gcc main.c          // Compiling a file
+a.exe               // Running a file
+./a.out             // Running in linux, using ~chmod a+x a.out in terminal 
+gcc test.c -o main  // Change the output file name to main
+
+gcc -c main.c               // Just produces the object file, seperate linking is required
+gcc -o main.exe main.o      // Manual linking
+gcc -Wall main.c            // Enable all warnings
+gcc -E test.c               // See all the preprocessing stage output
+gcc -E test.c myFile        // Redirect the preprocessing stage output to myFile
+gcc -S test.c myFile        // Assembly code to myFile
+gcc -save-temps test.c      // Save all the intermediate files, test.i=preprocessor stuff, test.s=assembly stuff
+
+gcc -Wall test.c -o main -l m   // Link to the math library 'm'
+gcc -c -Wall -fPIC main.c       // Create a shared library
+gcc -shared -o main.so main.o   // Link the shared library
+gcc -g main.c                   // Generate debugging information
+gcc -v main.c                   // Compilation steps information (verbose)
+gcc -Wall -ansi main.c          // Check if compliant with ansi standard
+
+gcc -Wall -funsigned-char main.c    // Treat characters as unsigned
+gcc -Wall -fsigned-char main.c      // Treat characters as signed
+gcc -DMY_MACRO main.c               // Define MY_MACRO
+gcc -Wall -Werror main.c            // Convert warnings to errors
+gcc test.c @opt_file                // Get compi options from opt_file file
+
+gcc -Q --help=optimizers        // See all the optimizers
+ldd ./a.out                     // Show the external library linking of a.out
+nm ./a.out                      // Show all the functions defined in the object
